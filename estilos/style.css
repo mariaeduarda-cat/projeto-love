@@ -39,3 +39,26 @@ iframe#tela {
     width: 267px;
     height: 470px;
 }
+
+section#botoes {
+    text-align: right;
+}
+
+section#botoes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(14, 11, 11, 0.416);
+    box-sizing: border-box;
+}
+
+section#botoes img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.91);   
+    transform: translate(-4px, -4px); 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.47);
+    transition: transform 0.5s, border .5s;
+}
+
+section#botoes img:active {
+    transform: scale(95%);
+}
