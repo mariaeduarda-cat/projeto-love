@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 body {
   display: flex;
   flex-wrap: wrap;
@@ -93,4 +94,14 @@ body {
 }
 .card:hover .back {
   transform: perspective(600px) rotateY(360deg);
+}
+
+.ex {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(90, 24, 83);
+}
+
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
