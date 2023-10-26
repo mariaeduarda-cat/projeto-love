@@ -98,7 +98,16 @@ body {
 }
 
 .ex {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(61, 24, 81); 
 }
 
+a {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+  color: #eb4ea7;
+}
