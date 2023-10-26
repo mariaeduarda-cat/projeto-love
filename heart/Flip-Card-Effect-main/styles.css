@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -97,11 +98,7 @@ body {
 }
 
 .ex {
-  font-family: 'Courier New', Courier, monospace;
-  color: rgb(90, 24, 83);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(61, 24, 81); 
 }
 
-a {
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
