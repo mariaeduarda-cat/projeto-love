@@ -86,7 +86,18 @@
             outline: none;
         }
     </style>
+</body>
+</html>
     <script>
+        var acessoPermitido = false;
+        while (!acessoPermitido) {
+        var resposta = confirm("+18, deseja acessar esta página?");
+        if (resposta) {
+                acessoPermitido = true;
+        } else {
+                acessoPermitido = alert("Não precisa ter medo, acesse 😏");
+        }
+    }
         document.addEventListener("DOMContentLoaded", function () {
             const noButton = document.getElementById("botao-negativo");
 
